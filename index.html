@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Animado</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-wrapper sign-in">
+        <form action="">
+          <h2>Login</h2>
+          <div class="input-group">
+            <input type="text" required>
+            <label for="">Usuário</label>
+          </div>
+          <div class="input-group">
+            <input type="password" required>
+            <label for="">Senha</label>
+          </div>
+          <div class="remember">
+            <label><input type="checkbox"> Lembre de mim</label>
+          </div>
+          <button type="submit">Entrar</button>
+          <div class="signUp-link">
+            <p>Não tem uma conta? <a href="#" class="signUpBtn-link">Cadastre-se</a></p>
+          </div>
+          <div class="social-platform">
+            <p>ou entre pelo(a)</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-google"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="form-wrapper sign-up">
+        <form action="">
+          <h2>Cadastro</h2>
+          <div class="input-group">
+            <input type="text" required>
+            <label for="">Usuário</label>
+          </div>
+          <div class="input-group">
+            <input type="email" required>
+            <label for="">Email</label>
+          </div>
+          <div class="input-group">
+            <input type="password" required>
+            <label for="">Senha</label>
+          </div>
+          <div class="remember">
+            <label><input type="checkbox"> Aceita os Termos & Condições</label>
+          </div>
+          <button type="submit">Criar a Conta</button>
+          <div class="signUp-link">
+            <p>Já tem uma conta ? <a href="#" class="signInBtn-link">Entrar</a></p>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
